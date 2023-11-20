@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Cookie&family=Lato&family=Oswald&family=Poppins:ital@0;1&family=Rancho&family=Tangerine:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nono{
+    background-color:#7B3F00;
+}
+
+
+.coco{
+    padding-left: 30px;
+    font-family: 'Rancho', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+.logo a{
+    font-family: 'Rancho', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.chocs img{
+    background-size: cover;
+    width: 100vw ;
+    height: 100vh;
+}
+
+.coke {
+  padding: 0;
+  margin: 0;
+}
+
+.prod {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  overflow: hidden;
+  background: url(https://img.freepik.com/free-vector/flat-world-chocolate-day-background-with-chocolate-sweets_23-2149430827.jpg?w=900&t=st=1699869519~exp=1699870119~hmac=d07c2601bacd27354b3b1068614debeaba32b284850663eaf96e732a59e0cde2) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.prod button{
+  color: rgb(185, 52, 52);
+  background-image: linear-gradient(to bottom right, yellow , chocolate);
+  font-family: 'Rancho';
+  font-size: 30px;
+  border-radius:25px;
+  width: 15vw;
+}
+
+.prod1 {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.prod1 h1{
+  font-family: 'Rancho';
+  font-size: 80px;
+}
+
+.text-overlay {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #0a0909; 
+}
+
+.img-fluid {
+  max-width: 200%; 
+  height: auto;
+  border-radius: 15px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.card {
+  width: 350px;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.2s linear ;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.item1, .item2, .item3,.item4{
+  margin: 20px; 
+ 
+}
+.item-head{
+  font-family: 'Rancho',sans-serif;;
+  font-size: 70px;
+  text-align: center;
+  padding: 20px;
+}
+
+.sign{
+  background: url("https://img.freepik.com/free-photo/top-view-delicious-little-biscuits-with-notebook_140725-100236.jpg?t=st=1699859336~exp=1699859936~hmac=124ac0f719f0a568ecb914dfdda0f1e0ede14be10b1cc741bfca49d6127edc8f") no-repeat;
+  width: 1000px;
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+
+}
+.sign button{
+  background-color: gold;
+  color: rgb(92, 78, 78);
+}
+
+.signup {
+  background: url("https://img.freepik.com/free-vector/dripping-melting-chocolate-drops-background-with-hazelnuts_1284-27192.jpg?w=826&t=st=1699870626~exp=1699871226~hmac=d9b0466b0636242b4e2e60c37a63d4a489c8c2bbd1d39ecff7e02c425459cf5a") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 10vh; 
+  text-align: center;
+  padding: 50px; 
+}
+
+.signup1 button {
+  background-color: gold;
+  color: rgb(92, 78, 78);
+  font-weight: 600;
+  font-family: 'Rancho';
+}
+
+.signup1 button:hover {
+  background-color: chocolate;
+  color: rgb(216, 211, 43);
+  font-weight: 600;
+}
+
+.signup1 h1 {
+  font-weight: 800;
+  font-family: 'Rancho';
+  font-size: 70px;
+}
+
+.signup1 p {
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.recipe{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 10vw;
+}
+
+.rechead{
+  font-family: 'Rancho';
+  font-size: 60px;
+  text-align: center;
+  margin: 20px;
+  padding: 25px;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.recipe .col {
+  animation: slideIn 0.8s ease-in-out;
+}
+
+.quick li a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: 'Rancho';
+  font-size: 20px;
+}
+
+.information li a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: 'Rancho';
+  font-size: 20px;
+}
+
+.follow li a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: 'Rancho';
+  font-size: 20px;
+}
+
+.quick1 h6{
+  background-image: linear-gradient(to right, #ffcc00, chocolate);
+  -webkit-background-clip: text; 
+  background-clip: none;
+  color: transparent; 
+  font-size: 36px; 
+  font-weight: bold; 
+}
